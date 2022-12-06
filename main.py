@@ -18,13 +18,13 @@ for i in input:
 
 print("The elf carrying the most calories is carrying:")
 print(max(calories))
-print("\n")
 
 sum = 0
 for z in range(0,3):
     sum += max(calories)
     calories[calories.index(max(calories))] = 0
-    print(sum)
+print("The calorie sum of the three most loaded elves is:")
+print(sum)
 
 
 
